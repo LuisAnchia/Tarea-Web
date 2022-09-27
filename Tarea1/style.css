@@ -1,0 +1,79 @@
+p{
+  font-size: 24px;
+  font-style: normal;
+  font-weight: bold;
+}
+
+button:hover{
+  color: white;
+  background-color: blue;
+  border: none;
+  border-radius: 0.25rem;
+}
+
+button:active{
+  background-color: chartreuse;
+}
+
+div{
+  position: relative;
+}
+
+.H{
+  padding: 1rem 2.5rem;
+  cursor:grab
+}
+
+.Cuadro{
+  width: 18rem;
+  height: 15rem;
+  background-color: rgb(255, 153, 0);
+  top: 50px;
+  left: 50px;
+  z-index: 1;
+}
+
+.Cuadro2{
+  width: 18rem;
+  height: 15rem;
+  background-color: rgb(0, 162, 255);
+  top: -100px;
+  left: 100px;
+  z-index: 2;
+}
+
+.Cuadro3{
+  width: 18rem;
+  height: 15rem;
+  background-color: rgb(0, 255, 55);
+  top: -200px;
+  left: 150px;
+  z-index:3;
+}
+
+.Cuadrado4{
+  background-color: red;
+  height: 15rem;
+  width: 18rem;
+  position: fixed;
+  top: 334px;
+  left: 1350px;
+}
+
+.Cuadrado5{
+  background-color: yellow;
+  height: 15rem;
+  width: 18rem;
+  position: relative;
+  top: 100px;
+  left: 150px;
+}
+
+.Cuadrado6{
+  background-color: rgb(1, 78, 1);
+  height: 15rem;
+  width: 18rem;
+  position: absolute;
+  top: 1321px;
+  left: 292px;
+}
